@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.26.3)
 
-project(SeaBattle)
+set(PROJECT_NAME ConsoleSeaBattle)
+project(${PROJECT_NAME})
 
-add_executable(SeaBattle src/main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp)
